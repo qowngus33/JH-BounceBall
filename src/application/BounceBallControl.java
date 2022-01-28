@@ -17,12 +17,11 @@ public class BounceBallControl extends Application {
 		
 		ballPane.setOnMouseClicked(e->{
 			ballPane.play();
-			ballPane.setText();
 		});
 		
-		Scene scene = new Scene(ballPane, 450, 350);
+		Scene scene = new Scene(ballPane, 450, 500);
 		primaryStage.setScene(scene);
-		primaryStage.setTitle("BallPaneDemo");
+		primaryStage.setTitle("BounceBall");
 		primaryStage.show();
 		
 		
