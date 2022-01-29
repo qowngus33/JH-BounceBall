@@ -19,7 +19,7 @@ public class BounceBallControl extends Application {
 			ballPane.play();
 		});
 		
-		Scene scene = new Scene(ballPane, 450, 500);
+		Scene scene = new Scene(ballPane, 450, 600);
 		primaryStage.setScene(scene);
 		primaryStage.setTitle("BounceBall");
 		primaryStage.show();
