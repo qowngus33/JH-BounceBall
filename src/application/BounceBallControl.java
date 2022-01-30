@@ -14,11 +14,6 @@ public class BounceBallControl extends Application {
 	public void start(Stage primaryStage) {
 		BallPane ballPane = new BallPane();
 		
-		
-		ballPane.setOnMouseClicked(e->{
-			ballPane.play();
-		});
-		
 		Scene scene = new Scene(ballPane, 450, 600);
 		primaryStage.setScene(scene);
 		primaryStage.setTitle("BounceBall");
